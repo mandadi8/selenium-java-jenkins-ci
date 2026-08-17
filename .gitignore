@@ -1,0 +1,12 @@
+target/
+reports/*.html
+reports/*.log
+reports/screenshots/
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+.env
+*.secret
