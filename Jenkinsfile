@@ -12,7 +12,7 @@ pipeline {
 
         stage('Run Selenium Tests') {
             steps {
-                bat 'mvn clean test -Dbrowser=chrome -Dheadless=true'
+                bat 'mvn clean test -Dbrowser=chrome -Dheadless=false'
             }
         }
     }
